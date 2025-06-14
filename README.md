@@ -17,18 +17,47 @@ This Android app was developed for the Mobile Application Development unit at Vi
 ## 📂 Project Structure
 FinalAssignment_1/
 ├── app/
-│ ├── src/main/java/com/example/finalassignment_1/
-│ ├── res/layout/
-│ ├── res/menu/
-│ └── res/values/
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   ├── java/com/example/finalassignment_1/
+│   │   │   │   ├── AuthRequest.kt
+│   │   │   │   ├── AuthResponse.kt
+│   │   │   │   ├── AuthService.kt
+│   │   │   │   ├── DashboardActivity.kt
+│   │   │   │   ├── DashboardAdapter.kt
+│   │   │   │   ├── DashboardItem.kt
+│   │   │   │   ├── DashboardResponse.kt
+│   │   │   │   ├── DashboardService.kt
+│   │   │   │   ├── DashboardViewModel.kt
+│   │   │   │   ├── DetailsActivity.kt
+│   │   │   │   ├── LoginActivity.kt
+│   │   │   │   ├── LoginViewModel.kt
+│   │   │   │   ├── MyApplication.kt
+│   │   │   │   └── RetrofitModule.kt
+│   │   ├── res/
+│   │   │   ├── layout/
+│   │   │   │   ├── activity_main.xml
+│   │   │   │   ├── activity_dashboard.xml
+│   │   │   │   ├── activity_details.xml
+│   │   │   │   └── item_dashboard.xml
+│   │   │   ├── menu/
+│   │   │   │   ├── menu_dashboard.xml
+│   │   │   │   └── menu_details.xml
+│   │   │   └── values/
+│   │   │       └── themes.xml
+│   ├── src/test/java/com/example/finalassignment_1/
+│   │   ├── ExampleUnitTest.kt
+│   │   ├── LoginRequestTest.kt
+│   │   └── RetrofitModuleTest.kt
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
 
 ---
 
-
----
 
 ## ⚙️ Dependencies
 
@@ -63,3 +92,5 @@ app/src/test/java/com/example/finalassignment_1/
 Kanghyeok LEE s8070108
 Victoria University Sydney Campus
 Bachelor of Information Technology
+
+
