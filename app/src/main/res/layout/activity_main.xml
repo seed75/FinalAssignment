@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Student First Name"
+        android:textColor="#000000"
+        android:textColorHint="#666666" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Student ID (s12345678)"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        android:backgroundTint="#FFFFFF"
+        android:background="#FFFFFF"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"/>  <!-- Material Blue 500 -->
+
+</LinearLayout>
