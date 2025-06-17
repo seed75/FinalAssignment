@@ -66,6 +66,14 @@ android {
         implementation("com.google.android.material:material:1.9.0")
         implementation("com.google.android.material:material:1.11.0")
 
+        // Unit testing
+        testImplementation("junit:junit:4.13.2")
+        testImplementation("io.mockk:mockk:1.13.12")
+        testImplementation("io.mockk:mockk-agent:1.13.12")
+        // Coroutine testing
+        testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.1")
+        testImplementation(kotlin("test"))
+
 
     }
 
